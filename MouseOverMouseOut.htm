@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> MouseOver MouseOut </TITLE>
+<script>
+function ad1()
+{
+	document.getElementById("ad").src="Images/reliance1.jpg";
+}
+function ad2()
+{
+	document.getElementById("ad").src="Images/pepsi.jpg";
+}
+</script>
+</HEAD>
+
+<BODY>
+<div>
+<img id="ad" width="600" height="200" src="Images/pepsi.jpg" onmouseover="ad1()" onmouseout="ad2()"><br>
+Ad will change on mouse over and mouse out
+</div>
+</BODY>
+</HTML>
